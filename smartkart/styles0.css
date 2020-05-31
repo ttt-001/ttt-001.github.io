@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+
+
+
+body{
+    background: url(images/60.jpg);
+    cursor: url(http://cur.cursors-4u.net/cursors/cur-10/cur923.ani), url(http://cur.cursors-4u.net/cursors/cur-10/cur923.gif), auto !important;
+}
+
+.t1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.rainbow-text {
+    font-size: 9rem;
+    text-align: center;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red, violet, indigo, blue, green, yellow, orange, red, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+.btn1{
+    color: rgb(238, 255, 0);
+    font-size: 9rem;
+    margin: inherit;
+}
+
+.btn2{
+    color: rgb(12, 12, 12);
+    font-size: 9rem;
+    
+}
+
+
+.btn{
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    
+    border-radius: 50%;
+    background-color: rgba(0, 255, 13, 0.37);
+}
+
+
+@media only  screen and (max-width: 898px)
+{
+    .btn1{
+        font-size: 6rem;
+    }
+    .btn2{
+        font-size: 6rem;
+    }
+
+    .t1{
+        font-size: 2rem;
+    }
+    .rainbow-text{
+        font-size: 7rem;
+    }
+}
